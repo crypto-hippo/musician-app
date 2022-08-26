@@ -25,7 +25,7 @@ app.locals.musician = musician;
 
 // start server
 const server = app.listen(port, '0.0.0.0', () => {
-  console.log("Server started on port " + port);
+  throw new Error("testing build");
 });
 
 module.exports = server;
